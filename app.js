@@ -111,7 +111,7 @@ app.delete("/blogs/:id", function(req, res) {
     //redirect somewhere
 });
 
-server.listen(port,() => {
+app.listen(port,() => {
   console.log(`Server running at port `+port);
 });
 
